@@ -1,0 +1,27 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9090
+  adminConnectors:
+    - type: http
+      port: 9091
+
+logging:
+  level: DEBUG
+  loggers:
+    io.dropwizard: INFO
+  appenders:
+    - type: console
+
+#metrics:
+#  reporters:
+#    - type: graphite
+#      host: 127.0.0.1
+#      port: 8125
+#      prefix: shiny_app
+
+defaultHystrixConfig:
+    hystrix.command.UserServiceDependency.execution.isolation.thread.timeoutInMilliseconds: 10000   //goes to fallback if no response in given time
+    hystrix.threadpool.UserService.maxQueueSize: 50
+    hystrix.threadpool.UserService.coreSize: 5
+

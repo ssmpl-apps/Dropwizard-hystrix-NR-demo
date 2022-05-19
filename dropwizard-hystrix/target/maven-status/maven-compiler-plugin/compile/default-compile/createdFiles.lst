@@ -1,0 +1,4 @@
+info/batey/examples/integration/resources/IntegrationResource.class
+info/batey/examples/integration/IntegrationApplication.class
+info/batey/examples/integration/AppConfig.class
+info/batey/examples/integration/points/user/UserServiceDependency.class
