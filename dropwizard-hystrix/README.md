@@ -21,3 +21,5 @@ This is an example of how to use Hystrix in a Dropwizard application.
 -Run the Producer as - java -jar target/DropWizardExample-1.0-SNAPSHOT.jar server
 
 If the JDK versions are different use 'mvn clean install' to generate a new jar.
+
+Got to http://localhost:9090/integrate/getreq to see the consumer API running with Hystrix and go to http://localhost:9091/ to view the Hystrix Metrics
