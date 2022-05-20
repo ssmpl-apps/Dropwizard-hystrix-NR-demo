@@ -13,20 +13,28 @@ import org.apache.commons.configuration.MapConfiguration;
 import org.apache.http.client.HttpClient;
 
 public class IntegrationApplication extends Application<AppConfig> {
+
+    /**
+     * Publishes Hystrix Metrics
+     * @param appConfigBootstrap
+     */
     @Override
     public void initialize(Bootstrap<AppConfig> appConfigBootstrap) {
         HystrixCodaHaleMetricsPublisher metricsPublisher = new HystrixCodaHaleMetricsPublisher(appConfigBootstrap.getMetricRegistry());
         HystrixPlugins.getInstance().registerMetricsPublisher(metricsPublisher);
     }
 
+    /**
+     * Registers Dropwizard resources, Integrates Hystrix config
+     * @param appConfig
+     * @param environment
+     * @throws Exception
+     */
     @Override
     public void run(AppConfig appConfig, Environment environment) throws Exception {
         ConfigurationManager.install(new MapConfiguration(appConfig.getDefaultHystrixConfig()));
-
         final HttpClient userService = new HttpClientBuilder(environment).using(appConfig.getUserServiceHttpClient()).build("UserService");
-
         environment.getApplicationContext().addServlet(HystrixMetricsStreamServlet.class, "/hystrix.stream");
-
         environment.jersey().register(new IntegrationResource(userService));
     }
 

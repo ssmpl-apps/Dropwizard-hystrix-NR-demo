@@ -11,14 +11,23 @@ public class UserServiceDependency extends HystrixCommand<String> {
 
     private HttpClient httpClient;
 
+    /**
+     * Constructor groups requests using Hystrix
+     * @param httpClient
+     */
     public UserServiceDependency(HttpClient httpClient) {
         super(HystrixCommandGroupKey.Factory.asKey("UserService")); //Each command that is executed with the same group will use the same work queue and thread pool
         this.httpClient = httpClient;
     }
 
+    /**
+     * Sends HTTP request to Producer Service
+     * @return userInfo
+     * @throws Exception
+     */
     @Override
     protected String run() throws Exception {
-        HttpGet getUserInfo = new HttpGet("http://localhost:8080/professor/getEnrolledStudents?profId=120");
+        HttpGet getUserInfo = new HttpGet("http://host.docker.internal:8080/professor/getEnrolledStudents?profId=120");
         HttpResponse userResponse = httpClient.execute(getUserInfo);
         int statusCode = userResponse.getStatusLine().getStatusCode();
         if (statusCode != 200) {
@@ -28,6 +37,10 @@ public class UserServiceDependency extends HystrixCommand<String> {
         return userInfo;
     }
 
+    /**
+     * Hystrix Fallback method
+     * @return Fallback response String
+     */
     @Override
     public String getFallback() {
         return "....sorry no connection, This is the fallback method";

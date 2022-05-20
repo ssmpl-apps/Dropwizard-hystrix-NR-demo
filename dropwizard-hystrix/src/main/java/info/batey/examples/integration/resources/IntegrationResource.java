@@ -6,7 +6,6 @@ import info.batey.examples.integration.points.user.UserServiceDependency;
 import org.apache.http.client.HttpClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
@@ -14,14 +13,20 @@ import javax.ws.rs.Path;
 public class IntegrationResource {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(IntegrationResource.class);
-
     private HttpClient userService;
 
-
+    /**
+     * Constructor initialises HttpClient
+     * @param userService
+     */
     public IntegrationResource(HttpClient userService){
         this.userService = userService;
     }
 
+    /**
+     * HTTP GET request to Producer service
+     * @return ProducerServiceResponse
+     */
     @GET
     @Timed
     public String integrate() {
