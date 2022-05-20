@@ -1,0 +1,106 @@
+2022-05-19T12:24:55,250+0530 [46912 1] com.newrelic INFO: Writing to New Relic log file: /Users/arya.krishnan/eclipse-workspace/newrelic/logs/newrelic_agent.log
+2022-05-19T12:24:55,251+0530 [46912 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.2
+2022-05-19T12:24:55,251+0530 [46912 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 17.0.2+8-86
+2022-05-19T12:24:55,251+0530 [46912 1] com.newrelic INFO: OS Mac OS X version 11.6.4 arch x86_64
+2022-05-19T12:24:55,251+0530 [46912 1] com.newrelic INFO: Agent Host: BLRETV-C02GL8M8.local IP: 127.0.0.1
+2022-05-19T12:24:55,251+0530 [46912 1] com.newrelic INFO: New Relic Agent v7.7.0 is initializing...
+2022-05-19T12:24:55,743+0530 [46912 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-05-19T12:24:57,408+0530 [46912 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2022-05-19T12:24:57,642+0530 [46912 1] com.newrelic INFO: Setting audit_mode to false
+2022-05-19T12:24:57,742+0530 [46912 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/arya.krishnan/eclipse-workspace/newrelic/./newrelic.yml
+2022-05-19T12:24:57,745+0530 [46912 1] com.newrelic INFO: New Relic Agent v7.7.0 has started
+2022-05-19T12:24:57,745+0530 [46912 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@32a1bec0
+2022-05-19T12:24:57,746+0530 [46912 1] com.newrelic INFO: Premain startup complete in 3,311ms
+2022-05-19T12:25:02,749+0530 [46912 40] com.newrelic INFO: Host name is BLRETV-C02GL8M8.local, display host BLRETV-C02GL8M8.local for application Hystrix_NR
+2022-05-19T12:25:02,750+0530 [46912 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T12:25:04,587+0530 [46912 40] com.newrelic INFO: Collector redirection to collector-006.newrelic.com:443
+2022-05-19T12:25:06,980+0530 [46912 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-05-19T12:25:06,981+0530 [46912 40] com.newrelic INFO: Agent run id: BWhFf9q_2lU8ADVQSUAZVVJiheo8AAIBAAAnIQEAALdAAgRAcTzdAwAFNy43LjAAFUJMUkVUVi1DMDJHTDhNOC5sb2NhbAAKSHlzdHJpeF9OUg
+2022-05-19T12:25:06,981+0530 [46912 40] com.newrelic INFO: Agent 46912@BLRETV-C02GL8M8.local/Hystrix_NR connected to collector.newrelic.com:443
+2022-05-19T12:25:06,982+0530 [46912 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3493961/applications/1081162973
+2022-05-19T12:25:06,983+0530 [46912 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T12:25:06,983+0530 [46912 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T12:25:06,983+0530 [46912 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T12:25:06,985+0530 [46912 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T12:25:06,985+0530 [46912 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T12:25:06,985+0530 [46912 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T12:25:08,908+0530 [46912 40] com.newrelic INFO: Real user monitoring is enabled for application Hystrix_NR. Auto instrumentation is enabled.
+2022-05-19T12:25:08,908+0530 [46912 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T12:30:00,556+0530 [46912 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-05-19T12:30:01,891+0530 [46912 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2022-05-19T14:44:45,509+0530 [59097 1] com.newrelic INFO: Writing to New Relic log file: /Users/arya.krishnan/eclipse-workspace/newrelic/logs/newrelic_agent.log
+2022-05-19T14:44:45,509+0530 [59097 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.2
+2022-05-19T14:44:45,510+0530 [59097 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 17.0.2+8-86
+2022-05-19T14:44:45,510+0530 [59097 1] com.newrelic INFO: OS Mac OS X version 11.6.4 arch x86_64
+2022-05-19T14:44:45,510+0530 [59097 1] com.newrelic INFO: Agent Host: BLRETV-C02GL8M8.local IP: 127.0.0.1
+2022-05-19T14:44:45,510+0530 [59097 1] com.newrelic INFO: New Relic Agent v7.7.0 is initializing...
+2022-05-19T14:44:45,970+0530 [59097 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-05-19T14:44:46,699+0530 [59097 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2022-05-19T14:44:46,921+0530 [59097 1] com.newrelic INFO: Setting audit_mode to false
+2022-05-19T14:44:47,025+0530 [59097 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/arya.krishnan/eclipse-workspace/newrelic/./newrelic.yml
+2022-05-19T14:44:47,030+0530 [59097 1] com.newrelic INFO: New Relic Agent v7.7.0 has started
+2022-05-19T14:44:47,030+0530 [59097 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@32a1bec0
+2022-05-19T14:44:47,030+0530 [59097 1] com.newrelic INFO: Premain startup complete in 2,279ms
+2022-05-19T14:44:52,034+0530 [59097 40] com.newrelic INFO: Host name is BLRETV-C02GL8M8.local, display host BLRETV-C02GL8M8.local for application Hystrix_NR
+2022-05-19T14:44:52,036+0530 [59097 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T14:44:54,610+0530 [59097 40] com.newrelic INFO: Collector redirection to collector-006.newrelic.com:443
+2022-05-19T14:44:57,598+0530 [59097 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-05-19T14:44:57,598+0530 [59097 40] com.newrelic INFO: Agent run id: BaRagKGUiYceADVQSUAZVVJihgrQAAIBAAAnIQEAAObZAgRAcTzdAwAFNy43LjAAFUJMUkVUVi1DMDJHTDhNOC5sb2NhbAAKSHlzdHJpeF9OUg
+2022-05-19T14:44:57,600+0530 [59097 40] com.newrelic INFO: Agent 59097@BLRETV-C02GL8M8.local/Hystrix_NR connected to collector.newrelic.com:443
+2022-05-19T14:44:57,600+0530 [59097 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3493961/applications/1081162973
+2022-05-19T14:44:57,601+0530 [59097 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T14:44:57,602+0530 [59097 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T14:44:57,602+0530 [59097 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T14:44:57,604+0530 [59097 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T14:44:57,604+0530 [59097 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T14:44:57,604+0530 [59097 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T14:44:58,884+0530 [59097 40] com.newrelic INFO: Real user monitoring is enabled for application Hystrix_NR. Auto instrumentation is enabled.
+2022-05-19T14:44:58,885+0530 [59097 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T14:47:53,089+0530 [59097 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-05-19T14:47:55,284+0530 [59097 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: Writing to New Relic log file: /Users/arya.krishnan/eclipse-workspace/newrelic/logs/newrelic_agent.log
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.2
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 17.0.2+8-86
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: OS Mac OS X version 11.6.4 arch x86_64
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: Agent Host: BLRETV-C02GL8M8.local IP: 127.0.0.1
+2022-05-19T14:48:07,857+0530 [59502 1] com.newrelic INFO: New Relic Agent v7.7.0 is initializing...
+2022-05-19T14:48:08,289+0530 [59502 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-05-19T14:48:08,888+0530 [59502 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2022-05-19T14:48:09,109+0530 [59502 1] com.newrelic INFO: Setting audit_mode to false
+2022-05-19T14:48:09,200+0530 [59502 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/arya.krishnan/eclipse-workspace/newrelic/./newrelic.yml
+2022-05-19T14:48:09,205+0530 [59502 1] com.newrelic INFO: New Relic Agent v7.7.0 has started
+2022-05-19T14:48:09,205+0530 [59502 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@32a1bec0
+2022-05-19T14:48:09,205+0530 [59502 1] com.newrelic INFO: Premain startup complete in 2,015ms
+2022-05-19T14:48:14,209+0530 [59502 40] com.newrelic INFO: Host name is BLRETV-C02GL8M8.local, display host BLRETV-C02GL8M8.local for application Hystrix_NR
+2022-05-19T14:48:14,210+0530 [59502 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T14:48:15,806+0530 [59502 40] com.newrelic INFO: Collector redirection to collector-006.newrelic.com:443
+2022-05-19T14:48:18,634+0530 [59502 40] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2022-05-19T14:48:18,634+0530 [59502 40] com.newrelic INFO: Agent run id: BeyxBomReaMnADVQSUAZVVJihgvAAAIBAAAnIQEAAOhuAgRAcTzdAwAFNy43LjAAFUJMUkVUVi1DMDJHTDhNOC5sb2NhbAAKSHlzdHJpeF9OUg
+2022-05-19T14:48:18,635+0530 [59502 40] com.newrelic INFO: Agent 59502@BLRETV-C02GL8M8.local/Hystrix_NR connected to collector.newrelic.com:443
+2022-05-19T14:48:18,635+0530 [59502 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3493961/applications/1081162973
+2022-05-19T14:48:18,636+0530 [59502 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T14:48:18,636+0530 [59502 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T14:48:18,636+0530 [59502 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T14:48:18,638+0530 [59502 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2022-05-19T14:48:18,638+0530 [59502 40] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2022-05-19T14:48:18,638+0530 [59502 40] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2022-05-19T14:48:20,050+0530 [59502 40] com.newrelic INFO: Real user monitoring is enabled for application Hystrix_NR. Auto instrumentation is enabled.
+2022-05-19T14:48:20,054+0530 [59502 40] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2022-05-19T15:12:09,402+0530 [59502 89] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Operation timed out). Please check your network / proxy settings.
+2022-05-19T15:23:05,507+0530 [59502 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-05-19T15:23:07,048+0530 [59502 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2022-05-20T18:00:46,184+0530 [61990 1] com.newrelic INFO: Writing to New Relic log file: /Users/arya.krishnan/eclipse-workspace/dropwizard-hystrix/newrelic/logs/newrelic_agent.log
+2022-05-20T18:00:46,185+0530 [61990 1] com.newrelic INFO: JRE vendor Oracle Corporation version 17.0.2
+2022-05-20T18:00:46,185+0530 [61990 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 17.0.2+8-86
+2022-05-20T18:00:46,185+0530 [61990 1] com.newrelic INFO: OS Mac OS X version 11.6.4 arch x86_64
+2022-05-20T18:00:46,185+0530 [61990 1] com.newrelic INFO: Agent Host: BLRETV-C02GL8M8.local IP: 127.0.0.1
+2022-05-20T18:00:46,185+0530 [61990 1] com.newrelic INFO: New Relic Agent v7.7.0 is initializing...
+2022-05-20T18:00:46,655+0530 [61990 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2022-05-20T18:00:48,340+0530 [61990 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2022-05-20T18:00:48,549+0530 [61990 1] com.newrelic INFO: Setting audit_mode to false
+2022-05-20T18:00:48,644+0530 [61990 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/arya.krishnan/eclipse-workspace/dropwizard-hystrix/newrelic/./newrelic.yml
+2022-05-20T18:00:48,648+0530 [61990 1] com.newrelic INFO: New Relic Agent v7.7.0 has started
+2022-05-20T18:00:48,648+0530 [61990 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@32a1bec0
+2022-05-20T18:00:48,649+0530 [61990 1] com.newrelic INFO: Premain startup complete in 3,208ms
+2022-05-20T18:00:51,394+0530 [61990 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2022-05-20T18:00:51,399+0530 [61990 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
