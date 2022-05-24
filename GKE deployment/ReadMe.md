@@ -1,3 +1,5 @@
+Prerequisite - A deployment of your app on GKE (Follow this https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app to directly deploy using a Docker Image)
+
 The pod4.yml is the Dropwizard API exposed as a NodePort service on 9090
 
 The pod5.yml is the Hystrix Operational Menu exposed as a NodePort Service on 9091
