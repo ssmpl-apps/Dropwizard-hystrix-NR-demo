@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: basic-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: hystrix-demo-service
+            port:
+              number: 9090
+      - path: /menu
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: nr-hystrix-demo-service
+            port:
+              number: 9091
+      
